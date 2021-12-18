@@ -34,6 +34,8 @@ class _SplashScreenState extends State<SplashScreen>
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
+                  Image.asset("assets/buizel.png"),
+                  SizedBox(height: 20),
                   Text("Welcome to", style: TextStyles.titleRegular),
                   SizedBox(height: 20),
                   Text("Poke Flux", style: TextStyles.titleHome),
